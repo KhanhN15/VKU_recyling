@@ -15,61 +15,60 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="http://localhost:3000/">
+                <Link className="nav-link" to="/">
                   TRANG CHỦ
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="http://localhost:3000/gioi-thieu">
+                <Link className="nav-link" to="/gioi-thieu">
                   GIỚI THIỆU
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="http://localhost:3000/lien-he">
+                <Link className="nav-link" to="/lien-he">
                   LIÊN HỆ
-                </a>
+                </Link>
               </li>
               <li className="nav-item lisanpham">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/">
                   TÍCH ĐIỂM-ĐỔI THƯỞNG
                   <i className="fa fa-chevron-down" aria-hidden="true" />
-                </a>
+                </Link>
                 <ul className="sub_menu">
                   <li className>
-                    <a href="doidiem.html" title="Đổi Điểm Recyclable waste">
+                    <Link to="/" title="Đổi Điểm Recyclable waste">
                       ĐỔI ĐIỂM RECYCLABLE WASTE
-                    </a>
+                    </Link>
                   </li>
                   <li className>
-                    <a href="http://localhost:3000/cach-thuc-doi-diem" title="CÁCH THỨC ĐỔI ĐIỂM">
+                    <Link to="/cach-thuc-doi-diem" title="CÁCH THỨC ĐỔI ĐIỂM">
                       CÁCH THỨC ĐỔI ĐIỂM
-                    </a>
+                    </Link>
                   </li>
                   <li className>
-                    <a href="http://localhost:3000/dia-diem-doi-diem" title=" ĐỊA ĐIỂM ĐỔI ĐIỂM">
+                    <Link to="/dia-diem-doi-diem" title=" ĐỊA ĐIỂM ĐỔI ĐIỂM">
                       ĐỊA ĐIỂM ĐỔI ĐIỂM
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item lisanpham">
-                <a className="nav-link" href="dangnhap.html">
+                <Link className="nav-link" to="/">
                   SẢN PHẨM
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="box-login-out">
-
-            <a href="#" className="icon-search">
+            <Link to="/" className="icon-search">
               <i className="fas fa-search" style={{ color: "#007a33" }} />
-            </a>
-            <a style={{ color: "#007a33" }} href className="login-out">
+            </Link>
+            <Link style={{ color: "#007a33" }} to="/" className="login-out">
               <i className="fas fa-user-alt" />
-            </a>
+            </Link>
             <div className="dropdown-content-login-out">
-              <a href>Đăng Ký</a>
-              <a href>Đăng Nhập</a>
+              <Link to={"/"}>Đăng Ký</Link>
+              <Link to={"/"}>Đăng Nhập</Link>
             </div>
             <div className="box-menu-mobile">
               <button
