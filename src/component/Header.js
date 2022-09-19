@@ -15,17 +15,17 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="index.html">
+                <a className="nav-link" href="http://localhost:3000/">
                   TRANG CHỦ
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="gioithieu.html">
+                <a className="nav-link" href="http://localhost:3000/gioi-thieu">
                   GIỚI THIỆU
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="lienhe.html">
+                <a className="nav-link" href="http://localhost:3000/lien-he">
                   LIÊN HỆ
                 </a>
               </li>
@@ -36,17 +36,17 @@ const Header = () => {
                 </a>
                 <ul className="sub_menu">
                   <li className>
-                    <a href="doidiem.html" title="Sản phẩm - Style 1">
+                    <a href="doidiem.html" title="Đổi Điểm Recyclable waste">
                       ĐỔI ĐIỂM RECYCLABLE WASTE
                     </a>
                   </li>
                   <li className>
-                    <a href="detailproduct.html" title="Sản phẩm - Style 2">
+                    <a href="http://localhost:3000/cach-thuc-doi-diem" title="CÁCH THỨC ĐỔI ĐIỂM">
                       CÁCH THỨC ĐỔI ĐIỂM
                     </a>
                   </li>
                   <li className>
-                    <a href="detailproduct.html" title="Sản phẩm - Style 2">
+                    <a href="http://localhost:3000/dia-diem-doi-diem" title=" ĐỊA ĐIỂM ĐỔI ĐIỂM">
                       ĐỊA ĐIỂM ĐỔI ĐIỂM
                     </a>
                   </li>
@@ -60,23 +60,17 @@ const Header = () => {
             </ul>
           </div>
           <div className="box-login-out">
-            <a style={{ color: "#272727" }} href className="login-out">
+
+            <a href="#" className="icon-search">
+              <i className="fas fa-search" style={{ color: "#007a33" }} />
+            </a>
+            <a style={{ color: "#007a33" }} href className="login-out">
               <i className="fas fa-user-alt" />
             </a>
             <div className="dropdown-content-login-out">
               <a href>Đăng Ký</a>
               <a href>Đăng Nhập</a>
             </div>
-            <a href="#" className="icon-search">
-              <i className="fas fa-search" style={{ color: "black" }} />
-            </a>
-            <a
-              style={{ color: "#272727" }}
-              href="#"
-              uk-toggle="target: #offcanvas-flip2"
-            >
-              <i className="fas fa-shopping-cart" />
-            </a>
             <div className="box-menu-mobile">
               <button
                 className="navbar-toggler customm-nav"

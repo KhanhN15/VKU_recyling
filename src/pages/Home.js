@@ -12,15 +12,15 @@ const Home = () => {
               <div className="carousel-caption">
                 <h1 className="title-h1">Chuyển đổi nền kinh tế xanh</h1>
                 <h3 className="title-h3">TIÊN PHONG TẠI VIỆT NAM</h3>
-                <div className="box-button">
-                  <button type="button" className="button facebook">
-                    <a href="#" className="button">
+                <div className="box-buttons">
+                  <button type="buttons" className="buttons facebook">
+                    <a href="#" className="buttons">
                       <i className="fab fa-facebook"> </i>
                     </a>{" "}
                     CỘNG ĐỒNG XANH
                   </button>
-                  <button type="button" className="button youtube">
-                    <a href="#" className="button">
+                  <button type="buttons" className="buttons youtube">
+                    <a href="#" className="buttons">
                       <i className="fab fa-youtube"> </i>{" "}
                     </a>{" "}
                     HƯỚNG DẪN ĐỔI ĐIỂM
@@ -34,9 +34,9 @@ const Home = () => {
           <div className="container-fluid box-content-hands">
             <div className="container">
               <p className="txt-text">
-                Hãy chung tay bảo vệ môi trường, bảo vệ trái đất{"{"}" "{"}"}
+              Hãy chung tay bảo vệ môi trường, bảo vệ trái đất{"{"}" "{"}"}
                 <span className="down-line-mobile" /> vì bạn, vì tôi, vì những
-                người thân yêu quanh mình.
+                người thân yêu quanh mình
               </p>
               <a href="#" className="act-now">
                 Hành Động Ngay
@@ -151,21 +151,21 @@ const Home = () => {
               <div className="content-newsletter">
                 <h2>Đăng ký</h2>
                 <p>
-                  Đăng ký nhận bản tin của Runner Inn để cập nhật những sản phẩm
+                  Đăng ký nhận bản tin của Recyclable Waste để cập nhật những sản phẩm
                   mới, nhận thông tin ưu đãi đặc biệt và thông tin giảm giá
                   khác.
                 </p>
                 <div className="form-newsletter">
-                  <form action acceptCharset="UTF-8" className>
+                  <form action acceptCharset="UTF-8" >
                     <div className="form-group">
                       <input type="hidden" id="contact_tags" />
                       <input
                         required
                         type="email"
-                        defaultValue
+
                         placeholder="Nhập email của bạn"
                         aria-label="Email Address"
-                        className
+
                       />
                       <button type="submit" className>
                         <span>Gửi</span>
@@ -178,7 +178,7 @@ const Home = () => {
           </section>
           <section className="section section-gallery box-custom">
             <div className="hot_sp">
-              <h2 className="txt-title">Khách hàng và Runner Inn</h2>
+              <h2 className="txt-title">Khách hàng và Recyclable Waste</h2>
             </div>
             <div className="list-gallery clearfix">
               <ul className="shoes-gp">
