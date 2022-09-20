@@ -36,7 +36,7 @@ const Header = () => {
                 </Link>
                 <ul className="sub_menu">
                   <li className>
-                    <Link to="/" title="Đổi Điểm Recyclable waste">
+                    <Link to="/doi-diem" title="Đổi Điểm Recyclable waste">
                       ĐỔI ĐIỂM RECYCLABLE WASTE
                     </Link>
                   </li>
@@ -53,7 +53,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item lisanpham">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/san-pham">
                   SẢN PHẨM
                 </Link>
               </li>
@@ -63,13 +63,10 @@ const Header = () => {
             <Link to="/" className="icon-search">
               <i className="fas fa-search" style={{ color: "#007a33" }} />
             </Link>
-            <Link style={{ color: "#007a33" }} to="/" className="login-out">
+            <Link style={{ color: "#007a33" }} to="/dang-nhap" className="login-out">
               <i className="fas fa-user-alt" />
             </Link>
-            <div className="dropdown-content-login-out">
-              <Link to={"/"}>Đăng Ký</Link>
-              <Link to={"/"}>Đăng Nhập</Link>
-            </div>
+
             <div className="box-menu-mobile">
               <button
                 className="navbar-toggler customm-nav"

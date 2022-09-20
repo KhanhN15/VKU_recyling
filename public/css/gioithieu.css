@@ -77,3 +77,40 @@
  
      margin-top: 50px;
  }
+ .buttonss{
+    background-color: #007a33!important;
+ } 
+ 
+ @media(max-width: 1024px){  
+    .box-distinctive .box-image{
+        height: 120px;
+    }
+}
+@media(max-width: 920px){
+    /*.box-distinctive {
+       margin-bottom: 0px;
+    }*/
+}
+@media(max-width: 770px){
+    .background-image-text h2, .background-image-text h3 {
+        font-size: 36px;
+    }
+}
+@media(max-width: 720px){
+    .box-distinctive {
+         margin-bottom: 0px; 
+    }
+}
+@media(max-width: 520px){
+    .background-image-text h2, .background-image-text h3 {
+        font-size: 28px;
+    }
+}
+@media(max-width: 480px){
+    .background-image-text h2, .background-image-text h3 {
+        font-size: 25px;
+    }
+}
+.box-distinctive .txt-title {
+    font-size: 38px;
+}
