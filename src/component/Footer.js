@@ -46,8 +46,8 @@ const Footer = () => {
           <div className="col-md-8 col-sm-6 col-xs-12">
             <div className="text-reserved">
               <p className="copyright-text">
-                Copyright © 2022 All Rights Reserved by
-                <a href="#">Recyclable Waste</a>.
+                Copyright © 2022 All Rights Reserved by Recyclable Waste
+
               </p>
             </div>
           </div>

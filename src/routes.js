@@ -8,6 +8,7 @@ import PoinAddress from "./pages/PointAddress";
 import Login from "./pages/Login";
 import ExchangePoint from "./pages/ExchangePoint";
 import Product from "./pages/Product";
+import TelecomOffersDetail from "./pages/TelecomOffersDetail";
 export default function Router() {
   return useRoutes([
     {
@@ -43,6 +44,10 @@ export default function Router() {
     {
       path: "/san-pham",
       element: <Product />
+    },
+    {
+      path: "/uu-dai-vien-thong",
+      element: <TelecomOffersDetail />
     },
     { path: "*", element: <Navigate to="/404" replace /> },
   ]);
