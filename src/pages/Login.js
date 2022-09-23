@@ -20,13 +20,13 @@ const Login = () => {
                                             <input type="password" placeholder="Mật khẩu" />
                                         </div>
                                         <input type="submit" defaultValue="Đăng nhập" className="btn solid" href="doidiem.html" />
-                                        {/* <p class="social-text">Hoặc đăng nhập bằng hình thức khác</p>
-                  <div class="social-media">
-                      <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
-                      <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
-                      <a href="#" class="social-icon"><i class="fa-brands fa-instagram-square"></i></a>
-                  </div> */}
+                                        <p class="social-text">Hoặc đăng nhập bằng hình thức khác</p>
+                                        <div class="social-media">
+                                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                                            <a href="#" class="social-icon"><i class="fa-brands fa-instagram-square"></i></a>
+                                        </div>
                                     </form>
                                     <form action="#" className="sign-up-form">
                                         <h2 className="title">Đăng ký</h2>
