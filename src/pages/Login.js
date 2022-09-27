@@ -21,12 +21,13 @@ const Login = () => {
                                         </div>
                                         <input type="submit" defaultValue="Đăng nhập" className="btn solid" href="doidiem.html" />
                                         <p class="social-text">Hoặc đăng nhập bằng hình thức khác</p>
-                                        <div class="social-media">
-                                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
-                                            <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
-                                            <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
-                                            <a href="#" class="social-icon"><i class="fa-brands fa-instagram-square"></i></a>
+                                        <div className="social-media">
+                                            <a href="#" className="social-icon"><i className="fa-brands fa-facebook" /></a>
+                                            <a href="#" className="social-icon"><i className="fa-brands fa-twitter" /></a>
+                                            <a href="#" className="social-icon"><i className="fa-brands fa-google" /></a>
+                                            <a href="#" className="social-icon"><i className="fa-brands fa-instagram-square" /></a>
                                         </div>
+
                                     </form>
                                     <form action="#" className="sign-up-form">
                                         <h2 className="title">Đăng ký</h2>
