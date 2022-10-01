@@ -138,25 +138,43 @@
 }
 
 .fa-facebook {
-    color: #78be21;
+    color:  #007a33;
 }
 
 .fa-twitter {
-    color: #78be21;
+    color:  #007a33;
 }
 
 .fa-google-plus-g {
-    color: #78be21;
+    color:  #007a33;
 }
 
 .fa-instagram {
-    color: #78be21;
+    color:  #007a33;
 }
 
 .fa-youtube {
-    color: #78be21;
+    color:  #007a33;
+}
+.fa-facebook:hover {
+    color:  #78be21;
 }
 
+.fa-twitter:hover {
+    color:  #78be21;
+}
+
+.fa-google-plus-g :hover{
+    color:  #78be21;
+}
+
+.fa-instagram :hover{
+    color:  #78be21;
+}
+
+.fa-youtube :hover{
+    color:  #78be21;
+}
 .site-footer {
     background-color: #e5e7e9;
     padding: 45px 0 20px;

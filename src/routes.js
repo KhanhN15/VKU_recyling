@@ -5,10 +5,11 @@ import Introduction from "./pages/Introduction";
 import Contact from "./pages/Contact";
 import RedeemPoints from "./pages/RedeemPoints";
 import PoinAddress from "./pages/PointAddress";
-import Login from "./pages/Login";
+
 import ExchangePoint from "./pages/ExchangePoint";
 import Product from "./pages/Product";
 import TelecomOffersDetail from "./pages/TelecomOffersDetail";
+import Login from "./pages/Login";
 export default function Router() {
   return useRoutes([
     {
@@ -35,12 +36,12 @@ export default function Router() {
       path: "/dia-diem-doi-diem",
       element: < PoinAddress />,
     },
-    
+
     {
       path: "/dang-nhap",
       element: <Login />
     },
-   
+
     {
       path: "/san-pham",
       element: <Product />

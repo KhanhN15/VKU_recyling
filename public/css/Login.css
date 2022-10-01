@@ -177,6 +177,10 @@ input {
 }
 
 form {
+   
+}
+
+form.sign-up-form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,14 +192,22 @@ form {
     grid-row: 1 / 2;
     padding-top: 0rem;
     padding-right: 3rem;
-}
-
-form.sign-up-form {
     opacity: 0;
     z-index: 1;
 }
 
 form.sign-in-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-top: 0rem;
+    padding-right: 3rem;
     z-index: 2;
 }
 
@@ -269,8 +281,8 @@ form.sign-in-form {
 
 .social-icon:hover {
     text-decoration: none;
-    color: #78be21;
-    border-color: #78be21;
+    color: #007a33;
+    border-color:#007a33;
 }
 
 .btn {
@@ -302,7 +314,7 @@ form.sign-in-form {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.box-content .container:before {
+.box-contents .containers:before {
     content: "";
     position: fixed;
     height: 2000px;

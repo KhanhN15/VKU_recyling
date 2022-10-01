@@ -1,15 +1,15 @@
-import Logins from "../Logins";
+import Logins from '../component/Logins'
 
 const Login = () => {
     return (
         <>
             <Logins>
                 <div>
-                    <div className="box-content">
-                        <div className="container">
+                    <div className="box-contents">
+                        <div className="containers">
                             <div className="forms-container">
                                 <div className="signin-signup">
-                                    <form action="index.html" className="sign-in-form">
+                                    <form action="" className="sign-in-form">
                                         <h2 className="title">Đăng nhập</h2>
                                         <div className="input-field">
                                             <i className="fa-solid fa-user" />
@@ -28,6 +28,13 @@ const Login = () => {
                                             <a href="#" className="social-icon"><i className="fa-brands fa-instagram-square" /></a>
                                         </div>
 
+                                        {/* <p class="social-text">Hoặc đăng nhập bằng hình thức khác</p>
+                  <div class="social-media">
+                      <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                      <a href="#" class="social-icon"><i class="fa-brands fa-instagram-square"></i></a>
+                  </div> */}
                                     </form>
                                     <form action="#" className="sign-up-form">
                                         <h2 className="title">Đăng ký</h2>
@@ -80,9 +87,11 @@ const Login = () => {
                 </div>
 
 
-
             </Logins>
         </>
-    );
+
+    )
+
 }
+
 export default Login;

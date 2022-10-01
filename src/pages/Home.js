@@ -1,5 +1,4 @@
 import OutLineBg from "../OutLineBg";
-
 const Home = () => {
   return (
     <>
