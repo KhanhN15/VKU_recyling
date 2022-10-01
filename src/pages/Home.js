@@ -33,8 +33,8 @@ const Home = () => {
           <div className="container-fluid box-content-hands">
             <div className="container">
               <p className="txt-text">
-                Hãy chung tay bảo vệ môi trường, bảo vệ trái đất{"{"}" "{"}"}
-                <span className="down-line-mobile" /> vì bạn, vì tôi, vì những
+                Hãy chung tay bảo vệ môi trường, bảo vệ trái đất
+                 vì bạn, vì tôi, vì những
                 người thân yêu quanh mình
               </p>
               <a href="#" className="act-now">

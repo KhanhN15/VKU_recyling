@@ -30,14 +30,14 @@
         font-weight: 700;
     }
 
-    .box-slider-head .box-button {
+    .box-slider-head .box-buttons {
         /*position: absolute;
     bottom: 110px;
     width: 100%;*/
     }
 
-        .box-slider-head .box-button .button {
-            background-color: #007a33;
+        .box-slider-head .box-buttons .buttons {
+            background-color: rgba(0,0,0,0.0);
             margin-top: 40px;
             font-size: 26px;
         }
@@ -70,6 +70,7 @@
         text-decoration: none;
         float: right;
     }
+  
 
 .box-alternative-solution {
     padding: 56px 0px 0px 0px;
@@ -296,6 +297,8 @@
 .carousel-caption button.facebook {
     display: inline-block;
     padding: 8px 16px;
+    size: 50px;
+    margin: 13px 12px 12px 10px;
     border-radius: 20px;
     background: none;
     color: white;
@@ -312,12 +315,12 @@
 }
 
 .carousel-caption button.facebook:hover {
-    background-color: #007a33;
+    background-color: #78be21;
     color: white;
 }
 
 .carousel-caption button.youtube:hover {
-    background-color: #007a33;
+    background-color: #78be21;
     color: white;
 }
 
@@ -352,20 +355,6 @@
     text-shadow: 2px 2px 10px #333;
 }
 
-.fa-leaf {
-    color: #007a33;
-    font-size: 15mm;
-}
-
-.fa-handshake {
-    color: #007a33;
-    font-size: 15mm;
-}
-
-.fa-globe {
-    color: #007a33;
-    font-size: 15mm;
-}
 
 .wrapper-home-newsletter {
     background-image: url(../img/trangchu123.jpeg);
